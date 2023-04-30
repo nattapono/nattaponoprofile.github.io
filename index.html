@@ -388,7 +388,7 @@
                 <div class="section-title">
                     <div class="d-flex align-items-center justify-content-between">
                         <h2>Resume </h2>
-                        <a href="assets/Resume-Nattapol.pdf">
+                        <a href="assets/Resume-Nattapol.pdf" target="_blank">
                             <button class="btn py-1 mb-3 border">Download <i class="bi-file-pdf"></i></button>
                         </a>
                     </div>
@@ -401,9 +401,12 @@
                         <h3 class="resume-title">Sumary</h3>
                         <div class="resume-item pb-0">
                             <h4>Nattapol Mahipant</h4>
-                            <p><em>Innovative and deadline-driven Graphic Designer with 3+ years of experience designing and developing user-centered digital/print marketing material from initial concept to final, polished deliverable.</em></p>
+                            <!-- <h4>Freelance Programmer</h4> -->
+
+                            <p><em>I'm Freelance Programmer Development </em></p>
+                            <h5>Aug 2013 - Present</h5>
                             <ul>
-                                <li>Portland par 127,Orlando, FL</li>
+                                <li>La villa posh 222/244 soi 11-B ,Ayutthaya, Thailand</li>
                                 <li>(064) 296-5231</li>
                                 <li>tstyeler@gmail.com</li>
                             </ul>
@@ -913,7 +916,7 @@
     <!-- End  Footer -->
 
     <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
-
+    <div class="fb-customerchat" page_id="511925325583172" id="fb-customer-chat"></div>
 
     <!-- Vendor JS Files -->
     <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
@@ -929,6 +932,30 @@
     <!-- Template Main JS File -->
     <script src="assets/js/main.js"></script>
     <script src="script-vue.js "></script>
+    <script>
+        var chatbox = document.getElementById('fb-customer-chat');
+        chatbox.setAttribute("page_id", "593592629257916");
+        chatbox.setAttribute("attribution", "giggaju_inbox");
+    </script>
+
+    <!-- Your SDK code -->
+    <script>
+        window.fbAsyncInit = function() {
+            FB.init({
+                xfbml: true,
+                version: 'v15.0'
+            });
+        };
+
+        (function(d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s);
+            js.id = id;
+            js.src = 'https://connect.facebook.net/th_TH/sdk/xfbml.customerchat.js';
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+    </script>
 </body>
 
 </html>
