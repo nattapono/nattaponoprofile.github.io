@@ -12,8 +12,10 @@
 --------------------------------------------------------------*/
 
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
 body {
-    /* font-family: "Bebas Neue", sans-serif; */
+    font-family: "Oswald", sans-serif;
     letter-spacing: 2px;
     color: #272829;
 }
@@ -105,7 +107,7 @@ h6 {
     font-weight: 600;
     -moz-text-align-last: center;
     text-align-last: center;
-    font-family: "Bebas Neue", sans-serif;
+    font-family: "Oswald", sans-serif;
 }
 
 #header .profile h1 a,
@@ -278,7 +280,7 @@ h6 {
     color: #fff;
     margin-bottom: 50px;
     font-size: 26px;
-    font-family: "Bebas Neue", sans-serif;
+    font-family: "Oswald", sans-serif;
 }
 
 #hero p span {
@@ -423,7 +425,7 @@ section {
 .facts .count-box p {
     padding: 15px 0 0 0;
     margin: 0 0 0 60px;
-    font-family: "Bebas Neue", sans-serif;
+    font-family: "Oswald", sans-serif;
     font-size: 14px;
     color: #122f57;
 }
@@ -434,7 +436,7 @@ section {
     margin-top: 20px;
     color: #122f57;
     font-size: 15px;
-    font-family: "Bebas Neue", sans-serif;
+    font-family: "Oswald", sans-serif;
     transition: ease-in-out 0.3s;
 }
 
@@ -460,7 +462,7 @@ section {
     text-transform: uppercase;
     display: block;
     font-weight: 600;
-    font-family: "Bebas Neue", sans-serif;
+    font-family: "Oswald", sans-serif;
     color: #050d18;
 }
 
@@ -506,7 +508,7 @@ section {
     font-size: 18px;
     font-weight: 600;
     text-transform: uppercase;
-    font-family: "Bebas Neue", sans-serif;
+    font-family: "Oswald", sans-serif;
     color: #050d18;
     margin-bottom: 10px;
 }
