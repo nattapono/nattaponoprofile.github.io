@@ -4,3 +4,8 @@ Template Name: iPortfolio
 Template URL: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/
 Author: BootstrapMade.com
 License: https://bootstrapmade.com/license/
+
+
+    git add -A            
+    git commit -m "add profile"   
+    git push -u origin main  
